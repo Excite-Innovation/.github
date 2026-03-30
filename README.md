@@ -1,4 +1,4 @@
-# .github
+### About
 
 Centralized repository for organization-wide GitHub templates and standards.
 
