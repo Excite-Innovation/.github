@@ -2,7 +2,7 @@
 
 Centralized repository for organization-wide GitHub templates and standards.
 
-## Purpose
+### Purpose
 This repo defines shared workflows and guidelines that automatically apply across all repositories in the organization, ensuring consistency in how we build, contribute, and collaborate.
 
 ### Includes
