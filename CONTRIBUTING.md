@@ -45,7 +45,7 @@
 - Create Pull Request
 - Copy ticket details into ChatGPT, generate a PR title message, review it, then use it
 - Rebase and Merge
-- Keep preview branch in the project
+- **Keep preview branch in the project**
 
 
 ### 4. Cleanup
