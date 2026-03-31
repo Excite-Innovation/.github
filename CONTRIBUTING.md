@@ -1,27 +1,23 @@
 # Version Control Workflow
 
 ### Key rules
-
 - Short-lived branches
 - One feature per branch or follow tasks on Linear
 - For discovered work, create and document a task in Linear
 - Make sure main is protected from direct pushes
 
 ### Main branches
-
 - main/master for production
 - preview for integration
 
 ---
 
 ### 1. Creating and Selecting Branches
-
 - Create branches from main using the GitHub interface
 - Select it using Source Control Checkout on VS Code UI
 
 
 ### 2. Commit & Push
-
 - Stage the changes using the "+" icon on View > Source Control UI on VS Code
 - Use small, clear commits with descriptive messages via VS Code Source Control
 - Copy ticket details into ChatGPT, generate a commit message, review it, then use it
@@ -31,15 +27,13 @@
 ### 3. Pull Request Merge Strategy
 
 #### branch → preview
-
 - Select base: preview and compare: feature branches
 - Review diff
 - Create Pull Request
 - Rebase and Merge
-- Delete remote branch immediately
+- The feature branch owner is responsible for deleting the remote branch immediately after peer review and merge
 
 #### preview → main
-
 - Select base: main and compare: preview branches
 - Review diff
 - Create Pull Request
@@ -49,7 +43,6 @@
 
 
 ### 4. Cleanup
-
 - Switch branches to preview or main using Source Control Checkout on VS Code UI
 - Sync changes / git pull to get latest updates
 
