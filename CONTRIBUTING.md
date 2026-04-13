@@ -13,6 +13,9 @@
 ---
 
 ### Common Branch naming conventions
+#### Simple rule
+- type/scope-description
+
 #### Core types
 - feature/ → new feature
 - fix/ → bug fix
