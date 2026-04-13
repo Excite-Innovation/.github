@@ -12,6 +12,39 @@
 
 ---
 
+### Common Branch naming conventions
+#### Core types
+- feature/ → new feature
+- fix/ → bug fix
+- hotfix/ → urgent production fix
+- refactor/ → code improvement (no behavior change)
+- chore/ → maintenance (deps, configs)
+- docs/ → documentation changes
+- test/ → tests only
+
+#### DX / quality
+- improvement/ → general enhancements
+- perf/ → performance improvements
+- style/ → formatting, linting, UI polish
+
+#### Product / business
+- release/ → release prep
+- experiment/ → testing ideas
+- spike/ → research / exploration
+
+#### Team / workflow
+- bugfix/ → same as fix/ (some teams prefer this)
+- ci/ → CI/CD changes
+- build/ → build system changes
+
+##### Examples
+- feature/product-catalog
+- fix/cart-checkout-error
+- refactor/auth-service
+- chore/update-dependencies
+
+---
+
 ### 1. Creating and Selecting Branches
 - Create branches from main using the GitHub interface
 - Select it using Source Control Checkout on VS Code UI
